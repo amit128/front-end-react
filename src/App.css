@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: #012146 !important;
+}
+
+.header 
+{
+  display: flex;
+  justify-content: center;
+  margin-top:50px;
+  
+}
+.sports_logo img{
+  height:12vh;
+  width: 30vh;
+}
+.whiteboard {
+  color: black;
+    position: relative;
+    z-index: -99;
+    
+    width: 80vh;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    margin:auto;
+    margin-top:20px;
+    font-family: 'Tahoma';
+
+}
+.progress 
+{
+  justify-content: center;
+  margin-top:20px;
+  padding:10px;
+  display: flex;
+  flex: 1;
+  
+
+}
+.progress img{
+  
+  width: 200px;
+  background-color: white;
+  height: 25px;
+
+}
+.players_container{
+ margin:0;
+ overflow:visible ;
+}
+.board_title h1,h2
+{
+  text-align: center;
+  font-weight: 600 !important;
+
+  
+}
+.board_title h1
+{ 
+  font-size: 22px !important;
+}
+.board_title h2
+{ 
+  font-size: 16px !important;
+}
+.board_title p{
+  clear: both;
+  text-align: center;
+  font-size: 14px !important;
+
+}
+
+hr.head_uLine_one{
+  
+  border: 10px dashed green;
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+hr.head_uLine{
+  width:40%;
+  margin:auto;
+  border-top: 1px solid grey;
+  clear: both;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+}
+
+.button{
+  clear: both;
+  background-color:white;
+  cursor: pointer;
+  height: 31px;
+  width: 120px;
+  margin:25px;
+  border:1px solid black !important;
+  border-radius: 30px;
+  font-size: 10px;
+  font-weight: 900;
+  padding: 5px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+.button .msg{
+  padding: 0px;
+  text-align: center;
+  margin-top: -6px;
+  margin-left:5px;
+
+}
+
+.text-center
+{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+.Allplayers, .players_points
+{
+  display: flex;
+  padding-top: 4px;
+  padding-left: 6px;
+  justify-content: center;
+  
+
+}
+
+.player_headshot img{
+  border: 2px solid #FFFFFF;
+  background: #F5F5F5;
+  width: 50px;
+  height: 50px;
+  margin-right: -4px;
+  border-radius: 50%;
+}
+.player_headshot .player_name
+{
+  color: #595959;
+    font-size: 9px;
+    position: relative;
+    left: 2px;
+    font-weight: 300;
+    letter-spacing: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 3px;
+
+}
+
+.single_points{
+  padding-left: 6px;
+
+}
+
+.points_value p{
+  color: #686868;
+  font-size: 16px;
+  padding-top: 4px;
+  display: flex;
+  justify-content: center;
+  height: 34px;
+  width: 34px;
+  border: 2px solid grey;
+  border-radius: 50%;
+}
+.pts{
+  color: #737373;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 0.5px;
+  padding-top: 2px;
+  max-width: 35px;
+  text-align: center !important;
+  line-height: 12px;
+}
+.download h1{
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-weight: 900;
+  color: #737373;
+}
+.App_store_buttons
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.App_store_buttons img
+{
+  width:100px;
+  margin:10px;
+  height: auto;
+
+
+}
+.footer-container{
+  padding:50px;
+}
+.footer{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+.footer a{
+  text-decoration: none;
+  color:grey;
+}
+@media (max-width: 992px){
+  .whiteboard
+  {
+    width: 100%;
+   
+  }
+  .Allplayers,.players_points {
+    padding-left: 6px !important; 
+    margin-right:20px !important;
+    font-size: 12px !important;
+    padding-top: 0;
+
+
+  }
+  .pts{
+  
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    padding-top: 0;
+    max-width: 35px;
+    text-align: center !important;
+    line-height: 12px;
+  }
+ 
+}
+
+
+
